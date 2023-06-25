@@ -56,3 +56,15 @@ Ayuda a asignar una responsabilidad específica a cada una de las interfaces que
 D. Dependency inversion principle- Principio de inversión de la dependencia.
 
 Inyección de dependencias y el evitar el acoplamiento.
+
+Example:
+
+Como usuario luego de confirmar la compra espero ver un <span style="background:#0e6631"> mensaje de confirmación </span>, tener la posibilidad de <span style="background:#0e6631"> descargar la factura </span> y un <span style="background:#0e6631"> correo electrónico de confirmación </span>.
+
+este es un feature al cual le podemos implementar el principio de responsabilidad unica ya que es una feature a la cual tiene varias funcionalidades las cuales separaremos para darle una responsabilidad unica a cada funcionalidad 
+
+1. mensaje de confirmación
+2. descargar la factura
+3. correo electrónico de confirmación
+
+las cuales seran usadas para resolver este feature

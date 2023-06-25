@@ -26,3 +26,33 @@ Distribución de responsabilidades. Cada componente debe contar con una sola res
 Crear componentes pequeños.
 
 CLEAN CODE (recommended book)
+
+What is SOLID?
+
+S.O.L.I.D
+
+S = Sigle responsibility principle - Principio de responsabilidad única.
+O = Open/closed principle - Principio abierto-cerrado.
+L = Liskov substitution principle - Principio de sustitución de Liskov.
+I = Interface segregation principle - Principio de segregación de interfaz.
+D = Dependency inversion principle -Principio de inversión de dependencia.
+
+S. Single responsibility principle-Principio de responsabilidad única.
+
+Debemos asignar una única responsabilidad a cada uno de los componentes.
+
+O. Open/closed principle- Principio de abierto/cerrado.
+
+El código debe estar abierto a extensiones y cerrado a cambios.
+
+L. Liskov substitution principle-Principio de sustitución de Liskov.
+
+Relación entre tipos y subtipos dentro del sistema.
+
+I. Interface segregation principle- Principio de segregación de la interfaz
+
+Ayuda a asignar una responsabilidad específica a cada una de las interfaces que tiene el sistema.
+
+D. Dependency inversion principle- Principio de inversión de la dependencia.
+
+Inyección de dependencias y el evitar el acoplamiento.
